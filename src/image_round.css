@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 20px;
+}
+
+.imgDiv {
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  margin: auto;
+  position: relative;
+  background-color: black;
+  background-blend-mode: screen multiply;
+  box-shadow: inset 0 0 12px rgba(0,0,0,1);
+}
+
+.imgOverlay {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: auto;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+}
+
+.logo {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  opacity: 1;
+}
