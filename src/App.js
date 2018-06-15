@@ -37,7 +37,7 @@ class App extends Component {
           introSubText=""
         />
         <div style={buttonStyle}>
-          <a href="mailto:claytonjschneider@gmail.com">
+          <a href="mailto:claytonjschneider@gmail.com" target="_blank">
             <RoundImage
               img={HeaderImg}
               logo={Gmail}
