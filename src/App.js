@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <PageBanner
           img={HeaderImg}
-          bannerText="Clayton Schneider"
+          bannerText="Clayton Schneider Says Hi"
         />
         <PageIntro
           introText="Web Developer and Bioinformatician"
