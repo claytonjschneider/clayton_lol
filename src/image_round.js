@@ -13,11 +13,12 @@ class RoundImage extends React.Component {
     }
 
     return (
-      <div className="paper">
+      <div className="wrapper">
         <div style={divStyle} className="imgDiv">
           <img src={this.props.logo} className="logo" alt="logo" align="center" />
         </div>
       </div>
+
     );
   }
 }

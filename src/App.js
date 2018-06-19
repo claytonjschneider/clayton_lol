@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
+import PageBanner from './page_banner.js';
+import PageIntro from './page_intro.js';
 import RoundImage from './image_round.js';
-import SelfieImage from './selfie.js';
 
 import HeaderImg from './img/deepspace.jpg';
 import Selfie from './img/DSC_0797.JPG';
@@ -27,38 +28,33 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="banner">
-          <h2>
-            Clayton Schneider Sucks
-          </h2>
-          <h1>
-            Web Developer and Bioinformatician
-          </h1>
-        </div>
-        <div className="content">
-          <SelfieImage
-            img={Selfie}
-          />
-          <div style={buttonStyle}>
-            <a href="mailto:claytonjschneider@gmail.com" target="_blank">
-              <RoundImage
-                img={HeaderImg}
-                logo={Gmail}
-              />
-            </a>
-            <a href="https://github.com/claytonjschneider">
-              <RoundImage
-                img={HeaderImg}
-                logo={Github}
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/claytonjschneider">
-              <RoundImage
-                img={HeaderImg}
-                logo={Linkedin}
-              />
-            </a>
-          </div>
+        <PageBanner
+          img={HeaderImg}
+          bannerText="Clayton Schneider"
+        />
+        <PageIntro
+          introText="Web Developer and Bioinformatician"
+          introSubText=""
+        />
+        <div style={buttonStyle}>
+          <a href="mailto:claytonjschneider@gmail.com" target="_blank">
+            <RoundImage
+              img={HeaderImg}
+              logo={Gmail}
+            />
+          </a>
+          <a href="https://github.com/claytonjschneider">
+            <RoundImage
+              img={HeaderImg}
+              logo={Github}
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/claytonjschneider">
+            <RoundImage
+              img={HeaderImg}
+              logo={Linkedin}
+            />
+          </a>
         </div>
       </div>
     );
