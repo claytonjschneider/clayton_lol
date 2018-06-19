@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './image_round.css';
+import './selfie.css';
 
 class SelfieImage extends React.Component {
   render() {
@@ -17,7 +17,6 @@ class SelfieImage extends React.Component {
         <div style={divStyle} className="imgDiv">
         </div>
       </div>
-
     );
   }
 }
