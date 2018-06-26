@@ -4,8 +4,8 @@ import PageBanner from './page_banner.js';
 import PageIntro from './page_intro.js';
 import RoundImage from './image_round.js';
 
-import HeaderImg from './img/deepspace.jpg';
-import Selfie from './img/DSC_0797.JPG';
+import HeaderImg from './img/deepspace.png';
+import Selfie from './img/DSC_0797.png';
 import Gmail from './img/gmail.png';
 import Twitter from './img/twitter.png';
 import Github from './img/github.png';

@@ -5,7 +5,7 @@ import './page_banner.css';
 import Line from './line.js';
 import SelfieImage from './selfie.js';
 
-import Selfie from './img/DSC_0797.JPG';
+import Selfie from './img/DSC_0797.png';
 
 class PageBanner extends React.Component {
   render() {
