@@ -5,7 +5,6 @@ import PageIntro from './page_intro.js';
 import RoundImage from './image_round.js';
 
 import HeaderImg from './img/deepspace.png';
-import Selfie from './img/DSC_0797.png';
 import Gmail from './img/gmail.png';
 import Twitter from './img/twitter.png';
 import Github from './img/github.png';
@@ -53,6 +52,12 @@ class App extends Component {
             <RoundImage
               img={HeaderImg}
               logo={Linkedin}
+            />
+          </a>
+          <a href="https://twitter.com/ClaytonGoob">
+            <RoundImage
+              img={HeaderImg}
+              logo={Twitter}
             />
           </a>
         </div>
